@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/TehShrike/workout-server/issues"
   },
-  "homepage": "https://github.com/TehShrike/workout-server#readme"
+  "homepage": "https://github.com/TehShrike/workout-server#readme",
+  "dependencies": {
+    "mysql": "2.9.0",
+    "then-denodeify": "1.0.0"
+  }
 }
