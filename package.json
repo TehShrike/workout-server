@@ -1,0 +1,22 @@
+{
+  "name": "workout-server",
+  "version": "1.0.0",
+  "description": "Track yer work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TehShrike/workout-server.git"
+  },
+  "keywords": [
+    "workout"
+  ],
+  "author": "TehShrike",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/TehShrike/workout-server/issues"
+  },
+  "homepage": "https://github.com/TehShrike/workout-server#readme"
+}
