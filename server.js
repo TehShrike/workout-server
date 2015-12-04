@@ -1,1 +1,1 @@
-require('./server')().listen(process.env.PORT || 9000)
+require('./index')().listen(process.env.PORT || 9000)
