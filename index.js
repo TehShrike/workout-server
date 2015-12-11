@@ -71,6 +71,7 @@ function socketHandler(dbAccess, socket) {
 				cb()
 			}).catch(function(err) {
 				cb(err && err.message)
+				console.error(err && err.message)
 			})
 		} else {
 			cb('That input is invalid')
