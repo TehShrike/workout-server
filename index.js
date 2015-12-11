@@ -59,11 +59,14 @@ module.exports = function makeServer() {
 }
 
 function socketHandler(dbAccess, socket) {
+	socket.join('work people did')
+
 	socket.on('work done', function(workReport, cb) {
 		if (typeof cb !== 'function') {
 			cb = noop
 		}
 		if (isValidWorkReport(workReport)) {
+			socket.to('work people did').emit('somebody did work', workReport)
 			dbAccess.saveWorkDone(workReport).then(function() {
 				cb()
 			}).catch(function(err) {
